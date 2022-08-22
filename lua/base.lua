@@ -14,6 +14,7 @@ vim.opt.showcmd = true
 vim.opt.cmdheight = 1
 vim.opt.laststatus = 2
 vim.opt.expandtab = true
+vim.opt.showmatch = true
 
 vim.opt.scrolloff = 10
 vim.opt.shell = 'zsh'
@@ -44,3 +45,4 @@ vim.api.nvim_create_autocmd("InsertLeave", {
 
 -- Add asterisk in block comments
 vim.opt.formatoptions:append { 'r' }
+
