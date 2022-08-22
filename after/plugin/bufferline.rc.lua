@@ -38,4 +38,4 @@ bufferline.setup {
 
 -- @key-map NORMAL MODE: tab will go to the next tab to the right when
 vim.api.nvim_set_keymap('n', '<Tab>', '<cmd>BufferLineCycleNext<cr>', {})
-vim.api.nvim_set_keymap('n', '<S-Tab>', '<cmd>BufferLineCyclePrevious<cr>', {})
+vim.api.nvim_set_keymap('n', '<S-Tab>', '<cmd>BufferLineCyclePrev<cr>', {})
