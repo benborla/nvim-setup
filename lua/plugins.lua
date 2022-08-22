@@ -47,4 +47,5 @@ packer.startup(function(use)
   use 'terrortylor/nvim-comment'
   use 'mhinz/vim-startify'
   use 'folke/tokyonight.nvim'
+  use 'RRethy/vim-illuminate'
 end)
