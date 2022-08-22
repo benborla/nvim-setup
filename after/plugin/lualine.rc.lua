@@ -4,14 +4,15 @@ if (not status) then return end
 lualine.setup {
   options = {
     icons_enabled = true,
-    theme = 'solarized_dark',
+    -- theme = 'solarized_dark',
+    theme = 'tokyonight',
     section_separators = { left = '', right = '' },
     component_separators = { left = '', right = ''},
     disabled_filetypes = {}
   },
   sections = {
     lualine_a = { 'mode' },
-    lualine_b = { 
+    lualine_b = {
       {
         'filename',
         file_status = true, -- display file status
@@ -23,7 +24,7 @@ lualine.setup {
       {
         'diagnostics',
         sources = { 'nvim_diagnostic' },
-        symbols = {error = ' ', warn = ' ', info = ' ', hint = ' '},
+        symbols = {error = ' ', warn = ' ', info = ' ', hint = ' '},
       },
       'encoding',
       'filetype'

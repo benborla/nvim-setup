@@ -46,4 +46,5 @@ packer.startup(function(use)
   use 'williamboman/mason-lspconfig.nvim'
   use 'terrortylor/nvim-comment'
   use 'mhinz/vim-startify'
+  use 'folke/tokyonight.nvim'
 end)
