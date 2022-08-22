@@ -56,3 +56,4 @@
 | ;; |  NORMAL | Opens Telescope on its previous state and mode | Telescope
 | ;e |  NORMAL | Shows all errors and warnings in Telescope | Telescope
 | ;f |  NORMAL | Open file browser | Telescope
+| gcc |  NORMAL | Comments the current line | NVIM Comment
