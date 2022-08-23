@@ -65,4 +65,6 @@
 | ;h |  NORMAL | Hop to the current buffer | Hop or EasyMotion
 | ;l |  NORMAL | Toggle listchars | built-in
 | F2 |  NORMAL | Toggle Aerial Window | Aerial
+| { |  NORMAL | Jump to the next function or method | Aerial
+| } |  NORMAL | Jump to the previous function or method | Aerial
 
