@@ -1,6 +1,7 @@
 # This is my personal nvim IDE setup
 
 <img width="1679" alt="image" src="https://user-images.githubusercontent.com/22745294/186062075-2d7a7651-ec79-4559-94ca-1890f1ca461a.png">
+<a href="https://app.daily.dev/benborla"><img src="https://api.daily.dev/devcards/bd24cc7736d04ed3a8f31b4d9a8b7d4e.png?r=zmb" width="400" alt="Ben Borla's Dev Card"/></a>
 
 ### The following pre-requisites should executed so that you can use this IDE properly
 
