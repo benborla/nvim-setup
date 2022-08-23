@@ -46,6 +46,8 @@ packer.startup(function(use)
   use 'williamboman/mason-lspconfig.nvim'
   use 'terrortylor/nvim-comment'
   use 'mhinz/vim-startify'
-  use 'folke/tokyonight.nvim'
+  use 'yashguptaz/calvera-dark.nvim'
   use 'RRethy/vim-illuminate'
+  use 'lukas-reineke/indent-blankline.nvim'
+  use 'phaazon/hop.nvim'
 end)
