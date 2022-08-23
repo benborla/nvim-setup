@@ -10,7 +10,8 @@ vim.cmd [[highlight IndentBlanklineIndent4 guifg=#F23131 gui=nocombine]]
 vim.cmd [[highlight IndentBlanklineIndent5 guifg=#61AFEF gui=nocombine]]
 vim.cmd [[highlight IndentBlanklineIndent6 guifg=#C678DD gui=nocombine]]
 
-vim.opt.list = true
+-- disabled by default, let the toggle handle this
+-- vim.opt.list = true
 vim.opt.listchars:append "space:⋅"
 -- vim.opt.listchars:append "eol:↴"
 

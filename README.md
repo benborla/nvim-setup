@@ -59,3 +59,4 @@
 | gcc |  NORMAL | Comments the current line | NVIM Comment
 | ;h |  NORMAL | Hop to the current buffer | Hop or EasyMotion
 | ;l |  NORMAL | Toggle listchars | built-in
+| F2 |  NORMAL | Toggle Aerial Window | Aerial
