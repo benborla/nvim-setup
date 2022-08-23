@@ -23,6 +23,9 @@
 | - |  NORMAL | Decrement a number | built-in
 | Ctrl (^) + a |  NORMAL | Select all texts | built-in
 | nww |  NORMAL | Save changes | built-in
+| ctrl (^) + s |  NORMAL | Save changes | built-in
+| ctrl (^) + s |  INSERT | Save changes | built-in
+| nww |  NORMAL | Save changes | built-in
 | ww |  VISUAL | Save changes | built-in
 | ww |  INSERT | Save changes | built-in
 | qq |  NORMAL | Close file | built-in
