@@ -51,4 +51,5 @@ packer.startup(function(use)
   use 'lukas-reineke/indent-blankline.nvim'
   use 'phaazon/hop.nvim'
   use 'stevearc/aerial.nvim'
+  use 'ellisonleao/glow.nvim'
 end)
