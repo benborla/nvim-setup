@@ -1,5 +1,7 @@
 # This is my personal nvim IDE setup
 
+<img width="1679" alt="image" src="https://user-images.githubusercontent.com/22745294/186062075-2d7a7651-ec79-4559-94ca-1890f1ca461a.png">
+
 ### The following pre-requisites should executed so that you can use this IDE properly
 
 - `npm install -g @fsouza/prettierd` 
@@ -60,3 +62,4 @@
 | ;h |  NORMAL | Hop to the current buffer | Hop or EasyMotion
 | ;l |  NORMAL | Toggle listchars | built-in
 | F2 |  NORMAL | Toggle Aerial Window | Aerial
+
