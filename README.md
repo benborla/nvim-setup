@@ -56,6 +56,7 @@
 | shift + k |  NORMAL | Display the docs of the functionor method | LSP Saga
 | gr |  NORMAL | rename a text, this will update all texts and usages| LSP Saga
 | ctrl (^) + p |  NORMAL | Find files | Telescope
+| ctrl ;v |  NORMAL | Search history | Telescope
 | ;r |  NORMAL | Find files via live grep | Telescope
 | \\\\ |  NORMAL | Show all buffers via Telescope | Telescope
 | ;t |  NORMAL | Show help tags| Telescope
