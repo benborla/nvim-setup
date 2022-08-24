@@ -52,4 +52,6 @@ packer.startup(function(use)
   use 'phaazon/hop.nvim'
   use 'stevearc/aerial.nvim'
   use 'ellisonleao/glow.nvim'
+  use 'folke/trouble.nvim'
+  use 'folke/todo-comments.nvim'
 end)
