@@ -51,7 +51,6 @@ telescope.load_extension('file_browser')
 
 local opts = { noremap = true, silent = true }
 
-vim.cmd [["let g:rooter_patterns = ['.git', '.svn', 'package.json', '!node_modules']"]]
 -- @key-map press ctrl + p to find file 
 -- vim.keymap.set('n', '<C-p>', "<cmd>lua require('telescope.builtin').find_files({ no_ignore = false, hidden = true})<cr>", opts)
 vim.keymap.set('n', '<C-p>', "<cmd>lua require('telescope.builtin').find_files({ no_ignore = false, hidden = true, path = '%:p:h', cwd = telescope_set_cwd() })<cr>", opts)
