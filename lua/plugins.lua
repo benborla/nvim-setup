@@ -52,4 +52,7 @@ packer.startup(function(use)
   use 'phaazon/hop.nvim'
   use 'stevearc/aerial.nvim'
   use 'ellisonleao/glow.nvim'
+  use 'folke/trouble.nvim'
+  use 'folke/todo-comments.nvim'
+  use 'airblade/vim-rooter' -- used to find file always in the root directory, will be fully used in telescope, because telescope is always searching file in the cwd
 end)

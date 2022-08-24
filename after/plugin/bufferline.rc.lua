@@ -5,11 +5,22 @@ bufferline.setup {
   options = {
     mode = 'tabs',
     separator_style = 'slant',
-    always_show_bufferline = false,
-    show_buffer_close_icons = false,
-    show_close_icons = false,
+    always_show_bufferline = true,
+    show_buffer_close_icons = true,
+    show_close_icons = true,
     colors_icons = true,
+    diagnostics = 'nvim_lsp',
+    diagnostics_indicator = function(count, level, diagnostics_dict, context)
+        local s = " "
+  for e, n in pairs(diagnostics_dict) do
+      local sym = e == "error" and ' '
+        or (e == "warning" and " " or ' ' )
+        s = s .. sym .. n
+      end
+      return s
+    end,
     numbers = "buffer_id",
+    enforce_regular_tabs = false,
     offset = {
       text_align = 'left'
     }
