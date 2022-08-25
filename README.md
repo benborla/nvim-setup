@@ -23,6 +23,7 @@
 | + |  NORMAL | Increment a number | built-in
 | - |  NORMAL | Decrement a number | built-in
 | Ctrl (^) + a |  NORMAL | Select all texts | built-in
+| aa |  NORMAL | Select all texts | built-in
 | nww |  NORMAL | Save changes | built-in
 | ctrl (^) + s |  NORMAL | Save changes | built-in
 | ctrl (^) + s |  INSERT | Save changes | built-in

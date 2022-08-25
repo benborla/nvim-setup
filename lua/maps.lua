@@ -12,6 +12,7 @@ keymap.set('n', '-', '<C-x>')
 -- Select all
 -- for mac press ^ + a to select all texts
 keymap.set('n', '<C-a>', 'gg<S-v>G')
+keymap.set('n', 'aa', 'gg<S-v>G')
 
 -- press nww to save changes
 keymap.set('n', 'nww', '<ESC>:w!<CR>')
