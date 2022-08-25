@@ -11,9 +11,9 @@ vim.cmd [[highlight IndentBlanklineIndent5 guifg=#61AFEF gui=nocombine]]
 vim.cmd [[highlight IndentBlanklineIndent6 guifg=#C678DD gui=nocombine]]
 
 -- disabled by default, let the toggle handle this
--- vim.opt.list = true
+vim.opt.list = false
 vim.opt.listchars:append "space:⋅"
--- vim.opt.listchars:append "eol:↴"
+vim.opt.listchars:append "eol:↴"
 
 vim.cmd[[highlight Whitespace ctermfg=DarkGray]]
 
