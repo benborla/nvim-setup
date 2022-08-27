@@ -47,6 +47,9 @@
 | Space + ff |  NORMAL | Go to definition | built-in
 | tab |  NORMAL | Select the next tab | BufferLine
 | shift + tab |  NORMAL | Select the previous tab | BufferLine
+| ctrl (^) + n |  INSERT | LSP Keywork completion select next | LSP
+| ctrl (^) + p |  INSERT | LSP Keywork completion select previous | LSP
+| ctrl (^) + d |  NORMAL | Scroll to bottom on docs | LSP CMP
 | ctrl (^) + d |  NORMAL | Scroll to bottom on docs | LSP CMP
 | ctrl (^) + space |  NORMAL | autocomplete the selected LSP dropdown | LSP CMP
 | ctrl (^) + R |  NORMAL | replace the current selection on LSP dropdown | LSP CMP
@@ -57,7 +60,7 @@
 | shift + k |  NORMAL | Display the docs of the functionor method | LSP Saga
 | gr |  NORMAL | rename a text, this will update all texts and usages| LSP Saga
 | ctrl (^) + p |  NORMAL | Find files | Telescope
-| ctrl ;v |  NORMAL | Search history | Telescope
+| ;v |  NORMAL | Search history | Telescope
 | ;r |  NORMAL | Find files via live grep | Telescope
 | \\\\ |  NORMAL | Show all buffers via Telescope | Telescope
 | ;t |  NORMAL | Show help tags| Telescope
