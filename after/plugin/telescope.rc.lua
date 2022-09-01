@@ -71,7 +71,7 @@ vim.keymap.set('n', ';e', "<cmd>lua require('telescope.builtin').diagnostics()<c
 -- @key-map press ;f to open file explorer
 
 -- always search on the project dir
-vim.keymap.set('n', ';f', "<cmd>lua require('telescope').extensions.file_browser.file_browser({ path = '%:p:h', cwd = telescope_buffer_dir(), respect_git_ignore = false, hidden = true, grouped = true, previewer = false, initial_mode = 'normal', layout_config = { height = 40 }})<cr>", opts)
+vim.keymap.set('n', ';f', "<cmd>lua require('telescope').extensions.file_browser.file_browser({ path = '%:p:h', cwd = telescope_buffer_dir(), no_ignore = false, respect_git_ignore = false, hidden = true, grouped = true, previewer = false, initial_mode = 'normal', layout_config = { height = 40 }})<cr>", opts)
 --
 -- additional shortcuts
 -- @key-map when in file explorer: press ctrl + t to open a file in a new tab, press ctrl + x to open file in horizontal split, ctrl + v to vertical split

@@ -54,14 +54,5 @@ packer.startup(function(use)
   use 'ellisonleao/glow.nvim'
   use 'folke/trouble.nvim'
   use 'folke/todo-comments.nvim'
-  use {
-    'rmagatti/auto-session',
-    config = function()
-      require("auto-session").setup {
-        log_level = "error",
-        auto_session_suppress_dirs = { "~/.sessions"},
-      }
-    end
-  }
   use 'nvim-treesitter/nvim-treesitter-context'
 end)
