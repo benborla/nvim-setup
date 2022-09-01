@@ -4,12 +4,17 @@ local status, bufferline = pcall(require, 'bufferline')
 bufferline.setup {
   options = {
     mode = 'tabs',
+    close_command = "Bdelete! %d",
+    right_mouse_command = "Bdelete! %d",
+    left_mouse_command = "buffer %d",
     separator_style = 'slant',
     always_show_bufferline = true,
     show_buffer_close_icons = true,
     show_close_icons = true,
     colors_icons = true,
     diagnostics = 'nvim_lsp',
+    show_buffer_icons = true,
+    show_tab_indicators = true,
     diagnostics_indicator = function(count, level, diagnostics_dict, context)
         local s = " "
   for e, n in pairs(diagnostics_dict) do
@@ -20,7 +25,7 @@ bufferline.setup {
       return s
     end,
     numbers = "buffer_id",
-    enforce_regular_tabs = false,
+    enforce_regular_tabs = true,
     offset = {
       text_align = 'left'
     }

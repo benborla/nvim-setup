@@ -37,6 +37,7 @@ packer.startup(function(use)
   use 'nvim-telescope/telescope.nvim'
   use 'nvim-telescope/telescope-file-browser.nvim'
   use 'akinsho/nvim-bufferline.lua'
+  use 'moll/vim-bbye'
   use 'norcalli/nvim-colorizer.lua' -- show colors on hex colors
 
   use 'lewis6991/gitsigns.nvim'
