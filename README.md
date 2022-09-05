@@ -49,8 +49,12 @@
 | shift + tab |  NORMAL | Select the previous tab | BufferLine
 | ctrl (^) + n |  INSERT | LSP Keywork completion select next | LSP
 | ctrl (^) + p |  INSERT | LSP Keywork completion select previous | LSP
-| ctrl (^) + d |  NORMAL | Scroll to bottom on docs | LSP CMP
-| ctrl (^) + d |  NORMAL | Scroll to bottom on docs | LSP CMP
+| ctrl (^) + d |  NORMAL | Scroll to up on docs | LSP CMP
+| ctrl (^) + f |  NORMAL | Scroll to down on docs | LSP CMP
+| ctrl (^) + e |  NORMAL | Close LSP Dialog | LSP CMP
+| ctrl (^) + space |  NORMAL | enter selected item in LSP | LSP CMP
+| Tab |  NORMAL | select next item in LSP | LSP CMP
+| Shift + Tab |  NORMAL | select previousws item in LSP | LSP CMP
 | ctrl (^) + space |  NORMAL | autocomplete the selected LSP dropdown | LSP CMP
 | ctrl (^) + R |  NORMAL | replace the current selection on LSP dropdown | LSP CMP
 | \\ + gb |  NORMAL | Show git blame window | git

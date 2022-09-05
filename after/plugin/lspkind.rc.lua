@@ -15,35 +15,34 @@ require('lspkind').init({
     --
     -- default: 'default'
     preset = 'codicons',
-
     -- override preset symbols
     --
     -- default: {}
     symbol_map = {
       Text = "",
-      Method = "",
+      Method = "m",
       Function = "",
-      Constructor = "",
-      Field = "ﰠ",
-      Variable = "",
-      Class = "ﴯ",
+      Constructor = "",
+      Field = "",
+      Variable = "",
+      Class = "",
       Interface = "",
       Module = "",
-      Property = "ﰠ",
-      Unit = "塞",
+      Property = "",
+      Unit = "",
       Value = "",
       Enum = "",
       Keyword = "",
-      Snippet = "",
+      Snippet = "",
       Color = "",
       File = "",
-      Reference = "",
+      Reference = "",
       Folder = "",
       EnumMember = "",
-      Constant = "",
-      Struct = "פּ",
+      Constant = "",
+      Struct = "",
       Event = "",
       Operator = "",
-      TypeParameter = ""
+      TypeParameter = "",
     }
 })

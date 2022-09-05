@@ -16,11 +16,13 @@ packer.startup(function(use)
   use 'kyazdani42/nvim-web-devicons' -- file icons
   use 'glepnir/lspsaga.nvim' -- LSP UIs
   use 'L3MON4D3/LuaSnip' -- snippets
+  use "rafamadriz/friendly-snippets" -- a bunch of snippets to use
   use 'hoob3rt/lualine.nvim' -- Statusline
   use 'onsails/lspkind-nvim' -- vscode like pictograms
+  use 'hrsh7th/nvim-cmp' -- Completion
   use 'hrsh7th/cmp-buffer' -- nvim-cmp source for buffer words
   use 'hrsh7th/cmp-nvim-lsp' -- nvim-cmp source for neovim's built-in LSP
-  use 'hrsh7th/nvim-cmp' -- Completion
+  use 'hrsh7th/cmp-path' -- LSP for path
   use 'neovim/nvim-lspconfig' -- LSP 
   use {
     'nvim-treesitter/nvim-treesitter',
@@ -33,6 +35,7 @@ packer.startup(function(use)
   use 'windwp/nvim-autopairs'
   use 'windwp/nvim-ts-autotag'
 
+  use "nvim-lua/popup.nvim" -- An implementation of the Popup API from vim in Neovim
   use 'nvim-lua/plenary.nvim'
   use 'nvim-telescope/telescope.nvim'
   use 'nvim-telescope/telescope-file-browser.nvim'
