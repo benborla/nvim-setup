@@ -11,7 +11,7 @@ function telescope_set_cwd()
   cwd = vim.fn.systemlist("git rev-parse --show-toplevel")[1]
   if vim.v.shell_error ~= 0 then
     -- if not git then active lsp client root
-    -- will get the configured root directory of the first attached lsp. You will have problems if you are using multiple lsps 
+    -- will get the configured root directory of the first attached lsp. You will have problems if you are using multiple lsps
     cwd = vim.lsp.get_active_clients()[1].config.root_dir
   end
 
@@ -52,13 +52,17 @@ telescope.load_extension('file_browser')
 
 local opts = { noremap = true, silent = true }
 
--- @key-map press ctrl + p to find file 
+-- @key-map press ctrl + p to find file
 -- vim.keymap.set('n', '<C-p>', "<cmd>lua require('telescope.builtin').find_files({ no_ignore = false, hidden = true})<cr>", opts)
-vim.keymap.set('n', '<C-p>', "<cmd>lua require('telescope.builtin').find_files({ no_ignore = false, hidden = true, path = '%:p:h', cwd = telescope_set_cwd() })<cr>", opts)
-vim.keymap.set('n', ';v', "<cmd>lua require('telescope.builtin').search_history({ no_ignore = false, hidden = true})<cr>", opts)
+vim.keymap.set('n', '<C-p>',
+  "<cmd>lua require('telescope.builtin').find_files({ no_ignore = false, hidden = true, path = '%:p:h', cwd = telescope_set_cwd() })<cr>"
+  , opts)
+vim.keymap.set('n', ';v', "<cmd>lua require('telescope.builtin').search_history({ no_ignore = false, hidden = true})<cr>"
+  , opts)
 
 -- @key-map press ;r find file that contains the regex
-vim.keymap.set('n', ';r', "<cmd>lua require('telescope.builtin').live_grep({ path = '%:p:h', cwd = telescope_set_cwd() })<cr>", opts)
+vim.keymap.set('n', ';r',
+  "<cmd>lua require('telescope.builtin').live_grep({ path = '%:p:h', cwd = telescope_set_cwd() })<cr>", opts)
 -- @key-map press \\ find file in the buffer
 vim.keymap.set('n', '\\\\', "<cmd>lua require('telescope.builtin').buffers()<cr>", opts)
 
@@ -71,7 +75,9 @@ vim.keymap.set('n', ';e', "<cmd>lua require('telescope.builtin').diagnostics()<c
 -- @key-map press ;f to open file explorer
 
 -- always search on the project dir
-vim.keymap.set('n', ';f', "<cmd>lua require('telescope').extensions.file_browser.file_browser({ path = '%:p:h', cwd = telescope_buffer_dir(), no_ignore = false, respect_git_ignore = false, hidden = true, grouped = true, previewer = false, initial_mode = 'normal', layout_config = { height = 40 }})<cr>", opts)
+vim.keymap.set('n', ';f',
+  "<cmd>lua require('telescope').extensions.file_browser.file_browser({ path = '%:p:h', cwd = telescope_buffer_dir(), no_ignore = false, respect_git_ignore = false, hidden = true, grouped = true, previewer = false, initial_mode = 'normal', layout_config = { height = 40 }})<cr>"
+  , opts)
 --
 -- additional shortcuts
 -- @key-map when in file explorer: press ctrl + t to open a file in a new tab, press ctrl + x to open file in horizontal split, ctrl + v to vertical split

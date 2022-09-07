@@ -77,6 +77,7 @@
 | F2 |  NORMAL | Toggle Aerial Window | Aerial
 | { |  NORMAL | Jump to the next function or method | Aerial
 | } |  NORMAL | Jump to the previous function or method | Aerial
+| ;g |  NORMAL | Toggle Error Diagnostics pane | Trouble
 
 <a href="https://app.daily.dev/benborla"><img src="https://api.daily.dev/devcards/bd24cc7736d04ed3a8f31b4d9a8b7d4e.png?r=zmb" width="400" alt="Ben Borla's Dev Card"/></a>
 

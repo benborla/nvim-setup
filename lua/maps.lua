@@ -73,6 +73,8 @@ keymap.set('n', '<down>', '<C-w>-')
 -- then press ctrl + o to go back to the selected text prior to going to the defnition
 keymap.set('n', '<Space>ff', ':vsplit | lua vim.lsp.buf.definition()<Return>')
 
+keymap.set('n', ';g', ':TroubleToggle<CR>')
+
 
 -- LSP Shortcuts
 -- to show the drop down press ctrl + n, to select or highlight you may use either the arrow keys or ctrl + n

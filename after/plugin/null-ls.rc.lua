@@ -11,6 +11,16 @@ null_ls.setup {
     end
   end,
   sources = {
+    null_ls.builtins.diagnostics.twigcs,
+    null_ls.builtins.formatting.blade_formatter,
+    null_ls.builtins.formatting.phpcsfixer,
+    null_ls.builtins.formatting.stylua,
+    null_ls.builtins.completion.spell,
+    null_ls.builtins.diagnostics.phpcs,
+    null_ls.builtins.formatting.yamlfmt,
+    null_ls.builtins.hover.dictionary,
+    null_ls.builtins.formatting.trim_whitespace,
+    null_ls.builtins.formatting.prettier,
     null_ls.builtins.diagnostics.eslint_d.with({
       diagnostics_format = '[eslint] #{m}\n(#{c})'
     }),

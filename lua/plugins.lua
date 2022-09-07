@@ -23,7 +23,7 @@ packer.startup(function(use)
   use 'hrsh7th/cmp-buffer' -- nvim-cmp source for buffer words
   use 'hrsh7th/cmp-nvim-lsp' -- nvim-cmp source for neovim's built-in LSP
   use 'hrsh7th/cmp-path' -- LSP for path
-  use 'neovim/nvim-lspconfig' -- LSP 
+  use 'neovim/nvim-lspconfig' -- LSP
   use {
     'nvim-treesitter/nvim-treesitter',
     run = ':TSUpdate'
@@ -59,4 +59,5 @@ packer.startup(function(use)
   use 'folke/trouble.nvim'
   use 'folke/todo-comments.nvim'
   use 'nvim-treesitter/nvim-treesitter-context'
+  use 'folke/which-key.nvim'
 end)
