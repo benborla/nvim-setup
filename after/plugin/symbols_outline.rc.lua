@@ -64,6 +64,6 @@ symbols_outline.setup({
   }
 })
 
-vim.cmd('autocmd BufReadPost * :SymbolsOutlineOpen')
+vim.cmd('autocmd BufReadPost * SymbolsOutlineOpen')
 
 vim.keymap.set('n', '<C-y>', ':SymbolsOutline<CR>')

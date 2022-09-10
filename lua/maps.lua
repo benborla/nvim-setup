@@ -16,6 +16,7 @@ keymap.set('n', 'aa', 'gg<S-v>G')
 
 -- press nww to save changes
 keymap.set('n', '<C-s>', '<ESC>:w!<CR>')
+keymap.set('i', '<C-s>', '<ESC>:w!<CR>')
 keymap.set('n', 'nww', '<ESC>:w!<CR>')
 -- press ww to save changes when in visual mode
 keymap.set('v', 'ww', '<ESC>:w!<CR>')
