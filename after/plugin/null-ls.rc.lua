@@ -1,6 +1,8 @@
 local status, null_ls = pcall(require, 'null-ls')
 if (not status) then return end
 
+local null_ls = require("null-ls")
+
 null_ls.setup {
   on_attach = function(client, bufnr)
     if client.server_capabilities.documentFormattingProvider then
@@ -13,10 +15,12 @@ null_ls.setup {
   sources = {
     null_ls.builtins.diagnostics.twigcs,
     null_ls.builtins.formatting.blade_formatter,
-    null_ls.builtins.formatting.phpcsfixer,
+    -- null_ls.builtins.formatting.phpcsfixer,
     null_ls.builtins.formatting.stylua,
     null_ls.builtins.completion.spell,
-    null_ls.builtins.diagnostics.phpcs,
+    -- null_ls.builtins.diagnostics.phpcs.with({
+    --   command = "/Users/benbor/.composer/vendor/bin/phpcs",
+    -- }),
     null_ls.builtins.formatting.yamlfmt,
     null_ls.builtins.hover.dictionary,
     null_ls.builtins.formatting.trim_whitespace,

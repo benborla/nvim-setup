@@ -5,7 +5,7 @@
 
 ### The following pre-requisites should executed so that you can use this IDE properly
 
-- `npm install -g @fsouza/prettierd` 
+- `npm install -g @fsouza/prettierd`
 - `brew install tree-sitter`
 - `brew install lua-language-server`
 - `npm install -g typescript-language-server`
@@ -74,10 +74,9 @@
 | gcc |  NORMAL | Comments the current line | NVIM Comment
 | ;h |  NORMAL | Hop to the current buffer | Hop or EasyMotion
 | ;l |  NORMAL | Toggle listchars | built-in
-| F2 |  NORMAL | Toggle Aerial Window | Aerial
-| { |  NORMAL | Jump to the next function or method | Aerial
-| } |  NORMAL | Jump to the previous function or method | Aerial
 | ;g |  NORMAL | Toggle Error Diagnostics pane | Trouble
+| ctrl (^) + y |  Toggle Class Overview Pane | SymbolsOutline
+| ctrl (^) + \ |  Toggle Terminal | ToggleTerm
+| ctrl (^) + t |  Toggle LazyGit | ToggleTerm
 
 <a href="https://app.daily.dev/benborla"><img src="https://api.daily.dev/devcards/bd24cc7736d04ed3a8f31b4d9a8b7d4e.png?r=zmb" width="400" alt="Ben Borla's Dev Card"/></a>
-

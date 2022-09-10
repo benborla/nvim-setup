@@ -54,10 +54,12 @@ packer.startup(function(use)
   use 'RRethy/vim-illuminate'
   use 'lukas-reineke/indent-blankline.nvim'
   use 'phaazon/hop.nvim'
-  use 'stevearc/aerial.nvim'
   use 'ellisonleao/glow.nvim'
   use 'folke/trouble.nvim'
   use 'folke/todo-comments.nvim'
   use 'nvim-treesitter/nvim-treesitter-context'
   use 'folke/which-key.nvim'
+  use 'gbprod/phpactor.nvim'
+  use 'akinsho/toggleterm.nvim'
+  use 'simrat39/symbols-outline.nvim'
 end)

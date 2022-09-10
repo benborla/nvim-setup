@@ -15,6 +15,7 @@ keymap.set('n', '<C-a>', 'gg<S-v>G')
 keymap.set('n', 'aa', 'gg<S-v>G')
 
 -- press nww to save changes
+keymap.set('n', '<C-s>', '<ESC>:w!<CR>')
 keymap.set('n', 'nww', '<ESC>:w!<CR>')
 -- press ww to save changes when in visual mode
 keymap.set('v', 'ww', '<ESC>:w!<CR>')
@@ -22,7 +23,7 @@ keymap.set('v', 'ww', '<ESC>:w!<CR>')
 keymap.set('i', 'ww', '<ESC>:w!<CR>')
 -- press qq to close file
 keymap.set('n', 'qq', '<ESC>:q!<CR>')
--- press ii to go back to normal mode 
+-- press ii to go back to normal mode
 keymap.set('i', 'ii', '<ESC>')
 keymap.set('v', 'ii', '<ESC>')
 
@@ -34,9 +35,9 @@ keymap.set('n', 'te', ':tabedit<Return>', { silent = true })
 
 -- SPLIT WINDOW
 -- press sg to split current file horizontally
-keymap.set('n', 'sg', ':split<Return><C-w>w', { silent = true})
+keymap.set('n', 'sg', ':split<Return><C-w>w', { silent = true })
 -- press sg to split current file vertically
-keymap.set('n', 'sv', ':vsplit<Return><C-w>w', { silent = true})
+keymap.set('n', 'sv', ':vsplit<Return><C-w>w', { silent = true })
 
 -- MOVE WINDOW
 

@@ -10,5 +10,5 @@ vim.g.calvera_borders = true
 
 
 -- Load the colorscheme
-vim.cmd[[highlight MatchParen cterm=bold]]
-vim.cmd[[colorscheme calvera]]
+vim.cmd [[highlight MatchParen cterm=bold]]
+vim.cmd [[colorscheme calvera]]
