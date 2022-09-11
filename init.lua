@@ -3,6 +3,7 @@ require('highlight')
 require('maps')
 require('plugins')
 require('callbacks')
+require('liveserver')
 
 local has = function(x)
   return vim.fn.has(x) == 1
