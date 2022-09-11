@@ -62,4 +62,6 @@ packer.startup(function(use)
   use 'gbprod/phpactor.nvim'
   use 'akinsho/toggleterm.nvim'
   use 'simrat39/symbols-outline.nvim'
+  -- emmet
+  use 'mattn/emmet-vim'
 end)
