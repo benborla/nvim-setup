@@ -77,6 +77,9 @@ keymap.set('n', '<Space>ff', ':vsplit | lua vim.lsp.buf.definition()<Return>')
 
 keymap.set('n', ';g', ':TroubleToggle<CR>')
 
+keymap.set('v', '<', '<gv')
+keymap.set('v', '>', '>gv')
+
 
 -- LSP Shortcuts
 -- to show the drop down press ctrl + n, to select or highlight you may use either the arrow keys or ctrl + n
