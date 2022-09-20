@@ -58,10 +58,12 @@ packer.startup(function(use)
   use 'folke/trouble.nvim'
   use 'folke/todo-comments.nvim'
   use 'nvim-treesitter/nvim-treesitter-context'
-  use 'folke/which-key.nvim'
+  -- use 'folke/which-key.nvim'
   use 'gbprod/phpactor.nvim'
   use 'akinsho/toggleterm.nvim'
   use 'simrat39/symbols-outline.nvim'
   -- emmet
   use 'mattn/emmet-vim'
+  -- Add grammar support
+  use 'rhysd/vim-grammarous'
 end)
