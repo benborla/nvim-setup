@@ -79,5 +79,6 @@
 | ctrl (^) + \ | Normal | Toggle Terminal | ToggleTerm
 | ctrl (^) + t | Normal | Toggle LazyGit | ToggleTerm
 | ctrl (^) + y + , | ALL | Trigger Emmet | Emmet
+| =ap | NORMAL | Fix indentations | Built-in
 
 <a href="https://app.daily.dev/benborla"><img src="https://api.daily.dev/devcards/bd24cc7736d04ed3a8f31b4d9a8b7d4e.png?r=zmb" width="400" alt="Ben Borla's Dev Card"/></a>

@@ -25,9 +25,9 @@ null_ls.setup {
     null_ls.builtins.hover.dictionary,
     null_ls.builtins.formatting.trim_whitespace,
     null_ls.builtins.formatting.prettier,
-    null_ls.builtins.diagnostics.eslint_d.with({
-      diagnostics_format = '[eslint] #{m}\n(#{c})'
-    }),
+    -- null_ls.builtins.diagnostics.eslint_d.with({
+    --   diagnostics_format = '[eslint] #{m}\n(#{c})'
+    -- }),
     null_ls.builtins.diagnostics.fish
   }
 }
