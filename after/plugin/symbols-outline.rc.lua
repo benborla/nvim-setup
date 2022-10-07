@@ -64,9 +64,6 @@ symbols_outline.setup({
   }
 })
 
--- @TODO: make this run automatically when opening a filer
--- currently it's only executing on these files formats:
--- .lua, .md
-vim.api.nvim_command [[autocmd BufReadPost * SymbolsOutlineOpen]]
+vim.cmd('autocmd BufReadPost * :SymbolsOutlineOpen')
 
-vim.keymap.set('n', '<C-y>', '<ESC>:SymbolsOutline<CR>')
+vim.keymap.set('n', '<C-y>', ':SymbolsOutline<CR>')

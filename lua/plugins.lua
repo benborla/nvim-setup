@@ -61,9 +61,14 @@ packer.startup(function(use)
   -- use 'folke/which-key.nvim'
   use 'gbprod/phpactor.nvim'
   use 'akinsho/toggleterm.nvim'
-  use 'simrat39/symbols-outline.nvim'
   -- emmet
   use 'mattn/emmet-vim'
   -- Add grammar support
   use 'rhysd/vim-grammarous'
+  use 'simrat39/symbols-outline.nvim'
+  -- PlantUML Viewer
+  use 'tyru/open-browser.vim'
+  use 'aklt/plantuml-syntax'
+  use 'weirongxu/plantuml-previewer.vim'
+  use 'scrooloose/vim-slumlord'
 end)

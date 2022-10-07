@@ -72,7 +72,7 @@
 | ;e |  NORMAL | Shows all errors and warnings in Telescope | Telescope
 | ;f |  NORMAL | Open file browser | Telescope
 | gcc |  NORMAL | Comments the current line | NVIM Comment
-| ;h |  NORMAL | Hop to the current buffer | Hop or EasyMotion
+| ctrl (^) + g |  NORMAL | Hop to the current buffer | Hop or EasyMotion
 | ;l |  NORMAL | Toggle listchars | built-in
 | ;g |  NORMAL | Toggle Error Diagnostics pane | Trouble
 | ctrl (^) + y | Normal | Toggle Class Overview Pane | SymbolsOutline
