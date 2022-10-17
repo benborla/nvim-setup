@@ -71,4 +71,7 @@ packer.startup(function(use)
   use 'aklt/plantuml-syntax'
   use 'weirongxu/plantuml-previewer.vim'
   use 'scrooloose/vim-slumlord'
+
+  -- twig
+  use 'nelsyeung/twig.vim'
 end)
