@@ -14,6 +14,7 @@ packer.startup(function(use)
     requires = { 'tjdevries/colorbuddy.nvim' }
   }
   use 'kyazdani42/nvim-web-devicons' -- file icons
+  use 'nvim-tree/nvim-web-devicons' -- file icons
   use 'glepnir/lspsaga.nvim' -- LSP UIs
   use 'L3MON4D3/LuaSnip' -- snippets
   use "rafamadriz/friendly-snippets" -- a bunch of snippets to use
@@ -49,8 +50,8 @@ packer.startup(function(use)
   use 'williamboman/mason.nvim'
   use 'williamboman/mason-lspconfig.nvim'
   use 'terrortylor/nvim-comment'
-  use 'mhinz/vim-startify'
-  use 'yashguptaz/calvera-dark.nvim'
+  -- use 'mhinz/vim-startify'
+  -- use 'yashguptaz/calvera-dark.nvim'
   use 'RRethy/vim-illuminate'
   use 'lukas-reineke/indent-blankline.nvim'
   use 'phaazon/hop.nvim'
@@ -74,4 +75,10 @@ packer.startup(function(use)
 
   -- twig
   use 'nelsyeung/twig.vim'
+
+  -- catppuccin colorscheme
+  use { "catppuccin/nvim", as = "catppuccin" }
+
+  -- startup dashboards
+  use 'glepnir/dashboard-nvim'
 end)

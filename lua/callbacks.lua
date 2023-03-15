@@ -6,3 +6,6 @@ vim.cmd('autocmd VimEnter * highlight Visual guifg=black guibg=Yellow guifg=none
 vim.cmd('autocmd VimEnter * highlight Comment guifg=#228B22')
 vim.cmd('set cursorline')
 vim.cmd('set colorcolumn=80,120')
+
+-- Startify 
+vim.cmd("set viminfo='100,n$HOME/.vim/files/info/viminfo")
