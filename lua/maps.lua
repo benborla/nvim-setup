@@ -80,6 +80,9 @@ keymap.set('n', ';g', ':TroubleToggle<CR>')
 keymap.set('v', '<', '<gv')
 keymap.set('v', '>', '>gv')
 
+-- show current file full path
+keymap.set('n', '<C-S-P>', ":echo expand('%:p')")
+
 
 -- LSP Shortcuts
 -- to show the drop down press ctrl + n, to select or highlight you may use either the arrow keys or ctrl + n
